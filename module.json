@@ -1,0 +1,57 @@
+{
+  "id": "witch-warriors",
+  "title": "Witch Warriors",
+  "description": "Wield the eldritch power with might and blade! 4 new Class Archetypes for Pathfinder 2e.",
+  "url": "https://github.com/ExampleRepo/pf2-test1",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Dorji Sanjiev"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "4.6.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "label": "Witch Warriors - Feats",
+      "type": "Item",
+      "name": "witch-warriors-feats",
+      "path": "./packs/witch-warriors-feats.db",
+      "system": "pf2e",
+      "package": "witch-warriors",
+      "private": false
+    },
+    {
+      "label": "Witch Warriors - Features",
+      "type": "Item",
+      "name": "witch-warriors-features",
+      "path": "./packs/witch-warriors-features.db",
+      "system": "pf2e",
+      "package": "witch-warriors",
+      "private": false
+    },
+    {
+      "label": "Witch Warriors - Classes",
+      "type": "Item",
+      "name": "witch-warriors-classes",
+      "path": "./packs/witch-warriors-classes.db",
+      "system": "pf2e",
+      "package": "witch-warriors",
+      "private": false
+    }
+  ]
+}
