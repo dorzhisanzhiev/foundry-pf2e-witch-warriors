@@ -53,5 +53,8 @@
       "package": "witch-warriors",
       "private": false
     }
-  ]
+  ],
+  "url": "https://github.com/dorzhisanzhiev/foundry-pf2e-witch-warriors",
+  "manifest": "https://raw.githubusercontent.com/dorzhisanzhiev/foundry-pf2e-witch-warriors/main/module.json",
+  "download": "https://github.com/dorzhisanzhiev/foundry-pf2e-witch-warriors/refs/heads/main.zip"
 }
